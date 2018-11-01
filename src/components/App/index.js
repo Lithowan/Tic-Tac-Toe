@@ -2,20 +2,19 @@ import React from 'react'
 import styled from 'styled-components'
 
 const StyledApp = styled.div`
-display: grid;
-font-family: 'Verdana', sans-serif;
+  display: grid;
+  font-family: 'Verdana', sans-serif;
   grid-template-areas: 'board';
   height: 100vh;
   margin: 0;
   padding: 0;
   width: 100vw;
-  `
-
+`
 StyledApp.displayName = 'StyledApp'
 
 export default function App () {
   return (
-    <div>
+    <StyledApp>
       <div>
         <div>0</div>
         <div>1</div>
@@ -27,6 +26,6 @@ export default function App () {
         <div>7</div>
         <div>8</div>
       </div>
-    </div>
+    </StyledApp>
   )
 }
