@@ -1,1 +1,1 @@
-This is a tutorial repo to learn the tools we will use for the Wellington JavaScript for Juniors project. For full instructions, see (https://github.com/test-er-8-or/tic-tac-toe)
+This is a tutorial repo to learn the tools we will use for the Wellington JavaScript for Juniors project. For full instructions, see https://github.com/test-er-8-or/tic-tac-toe
