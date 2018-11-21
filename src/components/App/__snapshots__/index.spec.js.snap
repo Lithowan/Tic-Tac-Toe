@@ -16,9 +16,9 @@ exports[`components:App renders the App with a game board and nine squares 1`] =
 >
   <Board>
     <Square
+      handleClick={[Function]}
       index={0}
       key="0"
-      player="o"
     />
     <Square
       handleClick={[Function]}
@@ -26,9 +26,9 @@ exports[`components:App renders the App with a game board and nine squares 1`] =
       key="1"
     />
     <Square
+      handleClick={[Function]}
       index={2}
       key="2"
-      player="x"
     />
     <Square
       handleClick={[Function]}
@@ -36,9 +36,9 @@ exports[`components:App renders the App with a game board and nine squares 1`] =
       key="3"
     />
     <Square
+      handleClick={[Function]}
       index={4}
       key="4"
-      player="x"
     />
     <Square
       handleClick={[Function]}

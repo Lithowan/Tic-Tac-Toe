@@ -33,7 +33,7 @@ const StyledApp = styled.div`
 `
 StyledApp.displayName = 'StyledApp'
 
-export default function App ({ moves = [4, 0, 2] /* mock */ }) {
+export default function App ({ moves = [] }) {
   return (
     <StyledApp>
       <Board>{makeSquares(moves)}</Board>
